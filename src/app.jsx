@@ -1,9 +1,10 @@
 
 import './app.css';
+import Habitsss from './components/habitsss';
 
 function App() {
   return (
-<h1>Hello :)</h1>
+<Habitsss/>
   );
 }
 
