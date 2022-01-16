@@ -4,6 +4,32 @@ button{
   cursor: pointer;
 }
 
+/* navbar */
+.navbar{
+  font-size : 2.5rem;
+  padding: 0.5em;
+  list-style-type: none;
+  background-color: rgb(251, 205, 230);
+}
+.fa-smile-wink {
+  color: rgb(69, 42, 165);
+  padding: 0em 0.5em 0em 0.5em ;
+}
+
+.sum-count{
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin: 0.2em 0.5em;
+  background-color: rgb(255, 79, 123);
+  color: white;
+  border-radius: 50%;
+}
+
+/* habit list */
 .habitList{
   font-size : 2.5rem;
   padding: 0.5em;
