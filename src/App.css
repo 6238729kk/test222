@@ -1,7 +1,9 @@
-button{
-  outline: none;
-  border:0;
-  cursor: pointer;
+body{
+  background-color: rgb(0,0,0);
+  color: white;
+  margin: 0;
+  font-size: 14px;
+  height: 100vh;
 }
 
 /* navbar */
@@ -11,57 +13,36 @@ button{
   list-style-type: none;
   background-color: rgb(251, 205, 230);
 }
-.fa-smile-wink {
+.fa-chevron-left {
   color: rgb(69, 42, 165);
   padding: 0em 0.5em 0em 0.5em ;
 }
 
-.sum-count{
-  display: inline-block;
-  text-align: center;
-  font-size: 2rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  margin: 0.2em 0.5em;
-  background-color: rgb(255, 79, 123);
-  color: white;
-  border-radius: 50%;
+/* 
+.SelectBoxWrapper {
+  display: flex;
+}
+.yearSelectBox{
+  display: flex;
+  align-items: center;
+  width: inherit;
+  height: inherit;
+  border: 0 none;
+  outline: 0 none;
+  padding-left: 15px;
+  background:  rgb(90, 90, 105);
+  cursor: pointer;
+  color: rgb(99,134,241);
+  font-weight: bold;
+
+  -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
-/* habit list */
-.habitList{
-  font-size : 2.5rem;
-  padding: 0.5em;
-  list-style-type: none;
-}
-
-.habit-count{
-  display: inline-block;
-  text-align: center;
-  font-size: 2rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  margin: 0.2em 0.5em;
-  background-color: darkturquoise;
-  color: white;
-  border-radius: 50%;
-}
-.habit-button{
-  font-size : 2.5rem;
-  margin: 0 0.1em;
-  background-color: transparent;
-}
-
-.habit-button:hover{
-  opacity: 0.8;
-}
-
-.habit-inc, .habit-dec {
-  color:rgb(253, 154, 212)
-}
-
-.habit-del {
-  color:darkred
-}
+.yearSelectBox svg{
+  margin-left: -28px;
+	align-self: center;
+	width: 24px;
+	height: 24px;
+} */
